@@ -1,0 +1,11 @@
+const images = [
+  'https://github.com/lamgory/lamglory/blob/main/images/FB_IMG_1715863877889.jpg', 
+  'https://github.com/lamgory/lamglory/blob/main/images/Messenger_creation_1192560548622220.jpeg',
+  'https://github.com/lamgory/lamglory/blob/main/images/Messenger_creation_23ec15b0-1c00-403e-99cf-7ce59c94ba5e.jpeg',
+  // ... thêm các đường dẫn ảnh khác vào đây
+];
+
+const randomImage = images[Math.floor(Math.random() * images.length)];
+
+const avatar = document.getElementById('avatar'); 
+avatar.src = randomImage; 
